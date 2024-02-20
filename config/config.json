@@ -1,10 +1,16 @@
 {
-    "development": {
-        "username": "desarrollo",
-        "password": "desarrollo",
-        "database": "pisdb",
-        "host": "127.0.0.1",
-        "dialect": "mysql",
-        "operatorAliases": false
+  "development": {
+    "username": "pis",
+    "password": "Unl123456789",
+    "database": "pisdb",
+    "host": "pisuvser.postgres.database.azure.com",
+    "dialect": "postgres",
+    "ssl": true,
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
     }
+  }
 }
