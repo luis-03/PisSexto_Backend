@@ -245,6 +245,3 @@ class DispositivoController {
 module.exports = DispositivoController;
 
 
-}
-module.exports = DispositivoController;
-
