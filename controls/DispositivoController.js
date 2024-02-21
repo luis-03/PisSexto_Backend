@@ -130,7 +130,7 @@ class DispositivoController {
       const medicionesValidas = [];
       ultimasMediciones.forEach(dispositivo => {
         dispositivo.medicions.forEach(medicion => {
-          if (medicion.uv >= 0 && medicion.uv <= 25) {
+          if (medicion.uv > 0 && medicion.uv <= 25) {
             medicionesValidas.push(medicion.uv);
           }
         });
